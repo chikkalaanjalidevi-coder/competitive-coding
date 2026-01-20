@@ -1,0 +1,30 @@
+import java.util.*;
+class Negativeorpositive
+{
+public static void main(String args[])
+{
+int a;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter a values");
+a=sc.nextInt();
+
+if(a>0)
+{
+System.out.println(a+ "is positive");
+if(a%2==0)
+{
+System.out.println(a+" is even");
+}
+else
+{
+System.out.println(a+ " is odd");
+}
+}
+else if(a<0)
+{
+System.out.println(a+" is negative");}
+else
+{
+System.out.println(a+" a is zero");}
+}
+}
